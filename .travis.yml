@@ -3,7 +3,7 @@ deploy:
   provider: releases
   api_key:
     secure: cEFUzresMkspIWqSk2rpR4vuvaaEObWG1GbuRi+a/FniXSdzsCrj2KD/qUPlspj1jPbuOxJlj/rvsOnaRaZFOB5cFFc/gviGgVYMEFpz/pKT1W0VxzG2M2HGtl7gWOlJu347DwQI1Q/HwMvdpphoHvOpT6S16qFDmsxb35ITlips36ErmjxMTJF+D5LqGP5xxq07msJy60SJKSXVToC7TZpTkKqD6F1Xm7Brib43X4Py4Q7hZTou3+3O7+NT9DeW4ggn7yxanIcmHVSn3Pf8cmfAKYnSI9AWckrp3M4+cUjNQVJcfBCbjtKQL/KYYmKfB1nvU8VKMVvdYNVnIaAt5VaEmWohH6O8/leZS4MSLijAERCjw7rjz9fBMuUpL2ALkKIQoeS2IW9Zn5ruTeq0i6OKTfc6Oxurq/9Ztnh9C/xN2ryNArNJLEvEjBGm78vK5Hhwl3A2GiOXohOALg0LnayD0R3RKFBQ9AcVy2fKghTAUqZeX0m1ESx12SR6428GbCJJ+ua0f/LZQ+CDWj7vbaSWlZr1lyKd699MWKK9cfwQlcjs8oRnjX8XdMu7isP2t94QOixG7PqKBvVGKMVsWzf4J6nw7FcRXvtsN49rGGOrMhgkjBf4u/4ty59gJQpMPGOdmRPuyI1Ss3uGs8nAIJYa2fy8sM2HAfrdJy+pe4g=
-  file: ''
+  file: './target/scala-2.10/squerylauth_2.6_2.10-0.1-SNAPSHOT.jar'
   on:
     repo: dev22tech/squeryl-auth-module
     branch: 0.1-SNAPSHOT
