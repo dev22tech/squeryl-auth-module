@@ -1,4 +1,6 @@
 language: scala
+script:
+  - sbt ++$TRAVIS_SCALA_VERSION package
 before_deploy:
   - ls -R ./target
 
