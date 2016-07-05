@@ -1,4 +1,7 @@
 language: scala
+before_deploy:
+  - ls ./
+  - ls ./target
 deploy:
   provider: releases
   api_key:
