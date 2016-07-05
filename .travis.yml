@@ -13,3 +13,4 @@ deploy:
   on:
     repo: dev22tech/squeryl-auth-module
     branch: 0.1-SNAPSHOT
+    tags: false
